@@ -1,0 +1,55 @@
+.welcome {
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url(https://images.unsplash.com/photo-1494412685616-a5d310fbb07d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80)
+      center/cover no-repeat;
+  text-align: center;
+}
+.welcome h1 {
+  color: rgb(1, 1, 50);
+  font-size: 6em;
+  padding-top: 40vh;
+  padding-bottom: 5vh;
+}
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  background: rgb(1, 1, 50);
+  color: goldenrod;
+  border: 3px solid rgb(1, 1, 50);
+  max-width: 100px;
+  transition: all 0.5s;
+}
+.btn:hover {
+  color: rgb(1, 1, 50);
+  background: goldenrod;
+}
+.welcome nav {
+    position: fixed;
+    top: 39vh;
+    right: -3px;
+    border: 3px solid rgb(1, 1, 50);
+    padding: 10px;
+    background: rgba(245, 245, 245, 0.5);
+    z-index: 1;
+}
+.welcome nav li {
+    list-style-type: none;
+    font-size: 1.5em;
+    padding: 5px 0;
+}
+.welcome nav li a {
+    text-decoration: none;
+    color: rgb(1, 1, 50);
+    transition: all 0.5s;
+}
+.welcome nav li a:hover {
+    color: goldenrod;
+}

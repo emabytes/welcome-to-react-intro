@@ -1,24 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Welcome from './Components/Welcome';
+import TopNav from './Components/Top-nav';
+import GalleryItem from './Components/GalleryItem';
+import TitleDescription from './Components/TitleDescription';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Welcome />
+      <TopNav />
+      <div className="flex-wrap">
+        <GalleryItem />
+        <GalleryItem />
+        <GalleryItem />
+      </div>
+      <div className="flex-wrap">
+       <TitleDescription />
+      </div>
+      <div className="flex-wrap">
+        <GalleryItem />
+        <GalleryItem />
+        <GalleryItem />
+      </div>
+      <div className="bg-img"></div>
+      <div className="flex-wrap">
+       <TitleDescription />
+      </div>
+      {/* <div className="grid-wrap">
+      <TitleDescription />
+      <GalleryItem />
+      </div> */}
     </div>
   );
 }

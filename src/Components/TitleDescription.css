@@ -1,0 +1,11 @@
+.descriptionWrap{
+    text-align: center;
+}
+.descriptionWrap h1 {
+    padding-bottom: 2vh;
+}
+.descriptionWrap p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.2em;
+}

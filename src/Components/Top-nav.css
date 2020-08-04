@@ -1,0 +1,30 @@
+.top-nav {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+}
+.top-nav ul {
+    display: flex;
+    padding: 0 5%;
+}
+.top-nav a{
+text-decoration: none;
+color: rgb(1, 1, 50);
+}
+.logo {
+    font-size: 1.5em;
+    padding-left: 5%;
+}
+.top-nav li {
+    list-style-type: none;
+    padding-left: 20px;
+    font-size: 1.2em;
+}
+.nav-sticky { 
+    position: sticky; 
+    width: 100%; 
+    left: 0; 
+    top: 0; 
+}
